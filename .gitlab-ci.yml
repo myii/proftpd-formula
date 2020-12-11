@@ -113,8 +113,8 @@ redhat-centos-8-2019-2-py3: {extends: '.test_instance'}
 redhat-centos-7-2019-2-py3: {extends: '.test_instance'}
 redhat-fedora-31-2019-2-py3: {extends: '.test_instance'}
 amazonlinux-amazonlinux-2-2019-2-py3: {extends: '.test_instance'}
-redhat-centos-6-2019-2-py2: {extends: '.test_instance'}
-amazonlinux-amazonlinux-1-2019-2-py2: {extends: '.test_instance'}
+# redhat-centos-6-2019-2-py2: {extends: '.test_instance'}
+# amazonlinux-amazonlinux-1-2019-2-py2: {extends: '.test_instance'}
 
 ###############################################################################
 # `release` stage: `semantic-release`
