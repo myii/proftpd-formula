@@ -1,6 +1,5 @@
 module.exports = {
   branch: 'master',
-  repositoryUrl: 'https://github.com/myii/proftpd-formula',
   plugins: [
       ['@semantic-release/commit-analyzer', {
         preset: 'angular',
