@@ -13,6 +13,9 @@ driver:
     add-host:
       - 'localhost.localdomain:127.0.0.1'
 
+# Using the commit title as a comment to guarantee change for new commit/push:
+# ci: test for upstream Salt regressions in '`'tiamat'`' instances (2021-W23b)
+
 platforms:
   ## SALT `tiamat`
   - name: debian-10-tiamat-py3
